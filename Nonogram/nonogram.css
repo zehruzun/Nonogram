@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+#gameBoard{
+    height: 750px;
+    width: 600px;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: rgb(70, 70, 70);
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    margin: 1px;
+}
+
+.counts-top{
+    position: relative;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.count-top{
+    height: 90px;
+    width: 40px;
+    background-color: rgb(154, 154, 154);
+    margin: 1px;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+}
+
+.counts-left{
+    margin-top: 10px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.count-left{
+    position: relative;
+    width: 90px;
+    background-color: rgb(154, 154, 154);
+    height: 40px;
+    margin: 1px;
+    border-radius: 5px;
+    float: left;
+    text-align: center;
+}
+
+.count-left p{
+    margin: auto;
+    display: inline-block;
+    margin-top: 6px;
+    padding: 4px;
+}
